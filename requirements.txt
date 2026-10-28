@@ -1,0 +1,9 @@
+# 图形界面框架 (GUI 所需，可任选 PyQt5 或 PyQt6 或 PySide6)
+PyQt5>=5.15.0,<6.0.0
+
+# 网络请求库 (可选)
+requests>=2.25.0,<3.0.0
+
+# 路径兼容库 (Python 3.4+ 已内置，仅用于低版本兼容)
+pathlib2>=2.3.0; python_version<"3.4"
+
